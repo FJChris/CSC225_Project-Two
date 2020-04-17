@@ -1,0 +1,168 @@
+body {
+  background-image:url("../images/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:#FFFFFF;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.navbar {
+    font-family: 'Orbitron', sans-serif;
+}
+  
+  .bg-custom {
+    background-image: linear-gradient( #149740 0%, #a9ffc3 100%);
+}
+
+  @keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+}
+
+  .payForm {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+
+    box-sizing: border-box;
+    background: rgba(19, 70, 17, 0.805);
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    border:3px solid whitesmoke;
+    height: 40%;
+    width: 60%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display:inline-block;
+    vertical-align: top;
+    margin-right:5%;
+    font-size: 16px;
+}
+
+.labels {
+  width: 8vw;
+  display: inline-block;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.dottedline {
+  border-top: 1px dashed white;
+}
+
+.credit, .paypal, .bitcoin {
+  width: 2vw;
+  display: inline-block;
+  text-align: right;
+}
+
+.spancred {
+  padding-right: 15px;
+}
+
+.spanpay {
+  padding-right: 45px;
+  text-decoration: line-through black;
+}
+
+.spanbit {
+  padding-right: 43px;
+  text-decoration: line-through black;
+}
+
+input[type=radio] + img {
+  cursor: pointer;
+}
+
+input[type=radio]:checked + span {
+  font-weight: bold;
+  color: greenyellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.logos {
+  background-color: white;
+  width:150px;
+  height:50px;
+}
+
+::placeholder {
+  color: grey;
+  opacity: .5; 
+}
+
+.butsout {
+  text-align: center;
+}
+
+.butsub {
+  height:50px; 
+  width:32vw;
+  background: rgb(24, 39, 19);
+  color: white;
+  font-size: 16px;
+  margin-right: 25px;
+}
+
+.butres {
+  height:50px; 
+  width:19vw;
+  background: rgb(24, 39, 19);
+  color: white;
+  font-size: 16px;
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+.items {
+  border: 2px solid #5cb85c;
+  height:135px;
+  width:200px;
+}
+
+.shopCartbox {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+  
+  width: 33%;
+  background: rgba(152, 180, 151, 0.25);
+  border:3px solid whitesmoke;
+  margin-bottom: 10px;
+  display:inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.shopTotal {
+  background: rgba(0, 0, 0, 0.605);
+  margin: 20px auto;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
+.totalcost {
+  font-weight: 900;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+footer {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 576px) {  
+  .shipping {margin-left:-25px; padding-left:0;}
+  .tax {margin-left:-25px; padding-left:0;}
+  .tottotal {margin-left:-25px; padding-left:0;}
+}

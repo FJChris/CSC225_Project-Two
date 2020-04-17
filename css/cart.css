@@ -1,0 +1,92 @@
+body {
+  background-image:url("../images/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:#FFFFFF;
+  min-height:100vh;
+}
+
+.navbar {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.bg-custom {
+  background-image: linear-gradient( #149740 0%, #a9ffc3 100%);
+}
+
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+   } 
+}
+
+.cartFade {
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+
+.cartLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: .08;
+}
+
+.shopCartbox {
+  box-sizing: border-box;
+  width: 750px;
+  height: 955px;
+  margin: 20px auto;
+  background: rgba(19, 70, 17, 0.805);
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 5px;
+}
+
+.title {
+  height: 70px;
+  padding: 20px 30px;
+  color: rgb(231, 255, 234);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.items {
+  border: 2px solid #5cb85c;
+  height:135px;
+  width:200px;
+}
+
+.shopTotal {
+  font-size:large;
+  box-sizing: border-box;
+  width: 325px;
+  height: 125px;
+  float:right;
+  margin: 20px auto;
+  padding-top: 5px;
+  padding-left: 30px;
+  background: rgba(0, 0, 0, 0.605);
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.50);
+  border-radius: 5px;
+}
+
+.checkbutt {
+  position:relative;
+  bottom: 0;
+  margin: 0 auto;
+  width: 90%;
+  background: rgb(24, 39, 19);
+  padding-bottom:5px;
+
+}
+
+footer {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
